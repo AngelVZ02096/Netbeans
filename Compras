@@ -1,0 +1,19 @@
+package com.mycompany.pract11;
+import java.util.Scanner;
+
+public class Pract11 {
+           public static void main (String[] args){
+               float total;
+               float cambio;
+               float pago;
+               Scanner Scanner=new Scanner (System.in);
+                System.out.println("Ingresa el costo total de la compra");
+                total=Scanner.nextFloat();
+                System.out.println("Ingresa la cantidad a pagar");
+                pago=Scanner.nextFloat();
+                cambio=pago-total;
+                System.out.println("El cambio es: "+ cambio);
+               
+           }
+
+}
